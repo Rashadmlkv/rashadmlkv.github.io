@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            color: #000000;
+        }
+
+        #entry,
+        #philosphy,
+        #skills,
+        #knowledge {
+            background-color: #FAF3E3;
+            display: grid;
+            height: 100vh;
+            align-content: center;
+            justify-items: center;
+        }
+
+        .navbar {
+            background-color: #1A4D2E;
+            width: 100vw;
+            position: fixed;
+        }
+
+        .navbar ul {
+            text-align: center;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            padding: 3vh 1px;
+            width: 100px;
+        }
+
+        .navbar a:hover {
+            background-color: #FF9F29;
+        }
+
+        .column {
+            float: left;
+            height: 100vh;
+            background-color: black;
+        }
+
+        .left,
+        .right {
+            width: 25vw;
+        }
+
+        .middle {
+            width: 50vw;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#entry">Entry</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#knowledge">Knowledge</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="row">
+            <div class="column left"></div>
+            <div class="column middle">
+                <div id="entry">
+                    <h1>Rashad Malikov</h1>
+                    <table>
+                        <tr>
+                            <th>Email:</th>
+                            <td>resadmlkv@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Phone:</th>
+                            <td>+994702809254</td>
+                        </tr>
+                        <tr>
+                            <th>LinkedIn</th>
+                            <td>Rashad Malikov</td>
+                        </tr>
+                        <tr>
+                            <th>GitHub</th>
+                            <td>Rashadmlkv</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+
+                <div id="philosophy">
+                    <h2>Philosophy</h2>
+                </div>
+
+
+
+                <div id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Memory management</li>
+                        <li>Source Code management</li>
+                        <li>Project management</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+
+
+                <div id="knowledge">
+                    <h2>Knowledge</h2>
+                    <dl>
+                        <dt>Technology</dt>
+                        <dd>Bash</dd>
+                        <dd>C</dd>
+                        <dd>C++</dd>
+                        <dd>Python</dd>
+                        <dd>Networks</dd>
+                        <dd>HTML</dd>
+                        <dd>CSS</dd>
+                        <dd>SQL</dd>
+                        <dd>JavaScript</dd>
+                        <dt>Languages</dt>
+                        <dd>Azerbaijani</dd>
+                        <dd>English</dd>
+                        <dd>Turkish</dd>
+                        <dd>Russian</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="column right"></div>
+        </div>
+    </main>
+</body>
+
+</html>
